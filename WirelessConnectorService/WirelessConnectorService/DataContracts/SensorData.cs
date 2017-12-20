@@ -1,4 +1,4 @@
-﻿namespace EnergyManagement_IotHubReceiver_WebJob.DataContracts
+﻿namespace WirelessConnectorService.DataContracts
 {
     using System;
 

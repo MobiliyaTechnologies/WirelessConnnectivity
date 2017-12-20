@@ -1,4 +1,4 @@
-﻿namespace EnergyManagement_IotHubReceiver_WebJob.Utilities
+﻿namespace WirelessConnectorService.Utilities
 {
     public static class ApplicationConstant
     {

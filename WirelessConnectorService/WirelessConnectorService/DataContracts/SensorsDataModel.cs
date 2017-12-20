@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnergyManagement_IotHubReceiver_WebJob.DataContracts
+namespace WirelessConnectorService.DataContracts
 {
     public class SensorsDataModel
     {

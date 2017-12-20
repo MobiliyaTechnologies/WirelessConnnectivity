@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EnergyManagement_IotHubReceiver_WebJob.DataContracts
+namespace WirelessConnectorService.DataContracts
 {
     public class PowerScoutData
     {

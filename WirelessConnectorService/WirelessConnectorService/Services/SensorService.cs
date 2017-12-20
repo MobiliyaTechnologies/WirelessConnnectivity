@@ -1,4 +1,4 @@
-﻿namespace EnergyManagement_IotHubReceiver_WebJob.Services
+﻿namespace WirelessConnectorService.Services
 {
     using System;
     using System.Collections.Generic;
@@ -9,8 +9,8 @@
     using System.Net.Http.Headers;
     using System.Reflection;
     using System.Text;
-    using EnergyManagement_IotHubReceiver_WebJob.DataContracts;
-    using EnergyManagement_IotHubReceiver_WebJob.Utilities;
+    using WirelessConnectorService.DataContracts;
+    using WirelessConnectorService.Utilities;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Linq;
 

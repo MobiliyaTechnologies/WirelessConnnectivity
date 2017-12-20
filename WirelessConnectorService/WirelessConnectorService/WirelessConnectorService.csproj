@@ -7,8 +7,8 @@
     <ProjectGuid>{468EA370-B746-4787-8CCF-6AFCFE58CBF0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EnergyManagement_IotHubReceiver_WebJob</RootNamespace>
-    <AssemblyName>EnergyManagement_IotHubReceiver_WebJob</AssemblyName>
+    <RootNamespace>WirelessConnectorService</RootNamespace>
+    <AssemblyName>WirelessConnectorService</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -148,7 +148,9 @@
     <Compile Include="WebJobHost.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

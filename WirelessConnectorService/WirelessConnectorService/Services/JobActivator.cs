@@ -1,4 +1,4 @@
-﻿namespace EnergyManagement_IotHubReceiver_WebJob.Services
+﻿namespace WirelessConnectorService.Services
 {
     using System.IO;
     using Castle.MicroKernel.Registration;

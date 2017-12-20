@@ -1,6 +1,6 @@
-﻿namespace EnergyManagement_IotHubReceiver_WebJob
+﻿namespace WirelessConnectorService
 {
-    using EnergyManagement_IotHubReceiver_WebJob.Services;
+    using WirelessConnectorService.Services;
     using Microsoft.Azure.WebJobs;
 
     public class WebJobHost

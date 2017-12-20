@@ -1,4 +1,4 @@
-﻿namespace EnergyManagement_IotHubReceiver_WebJob.Services
+﻿namespace WirelessConnectorService.Services
 {
     using Castle.MicroKernel.Registration;
     using Castle.MicroKernel.SubSystems.Configuration;
@@ -8,10 +8,10 @@
     {
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
-            container.Register(Classes.FromThisAssembly().InNamespace("EnergyManagement_IotHubReceiver_WebJob.Services")
+            container.Register(Classes.FromThisAssembly().InNamespace("WirelessConnectorService.Services")
                 .LifestyleSingleton());
 
-            container.Register(Classes.FromThisAssembly().InNamespace("EnergyManagement_IotHubReceiver_WebJob.Functions")
+            container.Register(Classes.FromThisAssembly().InNamespace("WirelessConnectorService.Functions")
              .LifestyleSingleton());
         }
     }

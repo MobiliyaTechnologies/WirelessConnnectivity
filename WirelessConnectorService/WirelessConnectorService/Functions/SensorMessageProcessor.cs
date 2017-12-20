@@ -1,13 +1,13 @@
-﻿namespace EnergyManagement_IotHubReceiver_WebJob.Functions
+﻿namespace WirelessConnectorService.Functions
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
     using System.Threading.Tasks;
-    using EnergyManagement_IotHubReceiver_WebJob.DataContracts;
-    using EnergyManagement_IotHubReceiver_WebJob.Services;
-    using EnergyManagement_IotHubReceiver_WebJob.Utilities;
+    using WirelessConnectorService.DataContracts;
+    using WirelessConnectorService.Services;
+    using WirelessConnectorService.Utilities;
     using Microsoft.Azure.WebJobs;
     using Microsoft.ServiceBus.Messaging;
 
